@@ -1,0 +1,17 @@
+@media screen and (min-width: 0px) {
+    .hello{
+        color: red
+    }
+}
+
+@media screen and (min-width: 479px) {
+    .hello {
+        color: blue
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .hello {
+        color: green
+    }
+}

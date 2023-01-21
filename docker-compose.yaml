@@ -1,0 +1,10 @@
+version: "3"
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 10088:80
+    volumes:
+      - ./src:/var/www

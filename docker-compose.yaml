@@ -5,6 +5,14 @@ services:
       context: .
       dockerfile: ./Dockerfile
     ports:
-      - 10088:80
+      - 10080:80
     volumes:
-      - ./src:/var/www
+      - ./src/sample:/var/www
+  cocomo:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 10081:80
+    volumes:
+      - ./src/mocomo:/var/www

@@ -1,0 +1,145 @@
+body {
+    font: 16px/2 sans-serif;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    white-space: nowrap;
+    padding-left: 30px;
+}
+
+
+nav ul li a:hover{
+    background-color:#0002;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    padding-left: 30px;
+}
+
+nav {
+    background-color: #cc0033;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0 0;
+}
+
+nav li {
+    list-style: none;
+    border-bottom: 0.5px solid #fff;
+}
+
+h1 {
+    font-size: 24px;
+    color: #cc0033;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    border-left: 10px solid #cc0033;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 0px;
+    padding: 10px 0;
+    background-color: gray;
+}
+
+img, video {
+    width: 100%;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.header-nav {
+    background-color: #cc0033;
+}
+
+.containts-wrapper {
+    width: 100%;
+}
+
+.main-contents {
+    width: 90%
+    margin: 0 auto;
+}
+
+.sub-notice {
+    border-top: #ccc solid 0.5px;
+    font-size: 12px;
+}
+
+footer {
+    background-color: gray;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (min-width: 0px) {
+    .view-able-if-pc {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .img-wrapper {
+        max-width: 1200px;
+    }
+
+    .main-contents {
+        display: flex;
+        max-width:1400px;
+        margin: auto;
+    }
+
+    nav ul {
+        display: flex;
+        margin: auto;
+    }
+
+    nav li {
+        width: 20%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        padding-left: 0;
+    }
+
+    nav li:not(:last-child){
+        border-right: 1px dotted #D692A3
+    }
+
+    .main-contents-left {
+        border-right: #fff solid 3px;;
+        width: 80%;
+        margin-right: 20px;
+    }
+
+    .main-contents-right {
+        width: 20%;
+        margin-left: 20px;
+    }
+
+    .view-able-if-pc {
+        display: block;
+    }
+}
